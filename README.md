@@ -2,7 +2,7 @@
 
 create table inside your database with the name of - user
 with the following structure -
-
+```
 
 column                 type
 ------------------------------
@@ -11,6 +11,8 @@ mobile                  varchar(20)
 email                   varchar(20)
 address                 varchar(20)
 count                   int
+
+```
  
 ```
      docker run --name benchmark \
